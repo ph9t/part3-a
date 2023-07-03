@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "author": "Angel Jimenez",
   "license": "MIT",
@@ -17,6 +18,7 @@
     "mongoose": "^7.3.1"
   },
   "devDependencies": {
+    "eslint": "^8.44.0",
     "nodemon": "^2.0.22"
   }
 }
